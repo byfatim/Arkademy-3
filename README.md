@@ -2,18 +2,18 @@
 
 using namespace std;
 
-int main() {
-    int i,j,n;
+int main()
+{
+    int rows, i,j,k=0;
+    cout << "masukkan jumlah baris:";
+    cin >> rows;
+    for (i=1;i<=rows;i++)
+    {
+        for (j=1;j<=i;++j)
+          cout <<k+j<<"";
+        ++k;
 
-    cout << "masukkan nilai N: ";
-    cin >> n;
-
-    for (i=1;i<=n;i++) {
-        for (j=1;j<=i;j++) {
-            cout << "bilangan_prima";
+    cout <<endl;
     }
-    cout << endl;
-    }
-
     return 0;
 }
